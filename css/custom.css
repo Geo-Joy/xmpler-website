@@ -47,5 +47,14 @@ hr.style5 {
     border-top: 2px dashed #8c8b8b;
     width:20rem;
 }
+@media (max-width: 992px) {
+    .special-margin-smaller{
+        margin-top:3rem;
+    }
+}
+
+.special-margin{
+    margin-top:3rem;
+}
   
 
