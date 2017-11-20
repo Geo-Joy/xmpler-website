@@ -15,6 +15,12 @@
     color:#6a6464;
     font-size: 3rem;
 }
+.xmpler-heading-text2{
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    color:#6a6464;
+    font-size: 2rem;
+}
 
 .container-fluid{
  
@@ -57,6 +63,13 @@ hr.style5 {
     height:2px;
     width:20rem;
     margin-bottom: 80px;
+}
+
+hr.style6 {
+    background: transparent url("../images/Asset 1.png") no-repeat center center;
+    border:0;
+    height:2px;
+    width:20rem; 
 }
 
 
