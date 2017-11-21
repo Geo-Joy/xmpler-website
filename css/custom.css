@@ -1,10 +1,10 @@
 .xmpler-navbar{
-    line-height: 2.5 !important;
+    /* line-height: 2.5 !important; */
 }
 
 .navbar-nav > li{
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:10px;
+    margin-right:10px;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -23,11 +23,10 @@
 }
 
 .container-fluid{
- 
- 
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
 /* .container-fluid-image{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -35,7 +34,7 @@
 } */
 
 .container-intro{
-    min-height: 70vh;
+    min-height: 50vh;
 }
 
 .bx-wrapper {
@@ -50,6 +49,7 @@
     -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); */
 }
+
 .bx-wrapper .bx-viewport {
     height: 189px !important;
 }
@@ -86,14 +86,15 @@ hr.style6 {
 .container-border-shadow {
     
 }
+ 
 .navbar {
     -webkit-box-shadow: 0 4px 6px -6px #999;
     -moz-box-shadow: 0 4px 6px -6px #999;
     box-shadow: 0 4px 6px -6px #999;
-    font-size: 20px;
+    font-size: 16px;
 }
 .navbar .navbar-brand img {
-    height: 70px;
+    height: 50px;
 }
 
 .cardB {
@@ -115,11 +116,11 @@ hr.style6 {
   .main-text{
       font-weight: bold;
       color:#6a6464;
-      font-size: 4rem;
+      font-size: 3rem;
   }
   .main-subtext{
     color:#6a6464;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     }
 
     .subtext{
