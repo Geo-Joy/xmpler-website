@@ -11,7 +11,7 @@
     font-family: frutigerlight_cn;
     vertical-align:baseline
 }  */
-body {
+body header footer {
     font-family: 'frutigerlight_cn' !important;
 }
 .xmpler-navbar{
@@ -196,6 +196,10 @@ hr.style6 {
       .copyright{
           font-size: 12px;
       }
+
+    .rounded {
+        border-radius: 50% !important;
+    }
 
       /*\
  * Restore Bootstrap 3 "hidden" utility classes.
