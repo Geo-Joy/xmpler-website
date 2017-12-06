@@ -147,7 +147,7 @@
 
         <div class="col-sm-12 hidden-md-up">
           <!-- <img class="align-self-center img-fluid mx-auto d-block" src="./images/Asset 15xxxhdpi.png" alt="Generic placeholder image"> -->
-          <div id="bodymovin"></div>
+          <div id="bodymovinmobile"></div>
         </div>
         <div class="col-sm-12 hidden-md-up">
             <div class=" " >
@@ -249,7 +249,7 @@
         <div class="col-sm-12 hidden-md-up">
           <div class="card" style="background-color: #FBFBFB; border:0px;">
             <div class="card-body">
-              <img class="mx-auto d-block" width="40%;" src="./images/Asset 5xxxhdpi.png" alt="Mission">
+              <img class="mx-auto d-block" width="40%;" src="./images/ServiceAsset.png" alt="Mission">
               <br/>
               <h5 class="card-title text-center text-bold-blue">Mission</h5>
               <p class="card-text text-justify subtext">We partner with content providers and mobile network operators to bring enriched engagement and user experience
@@ -260,7 +260,7 @@
         <div class="col-sm-12 hidden-md-up">
           <div class="card" style="background-color: #FBFBFB; border:0px;">
             <div class="card-body">
-              <img class="mx-auto d-block" width="40%;" src="./images/Asset 4xxxhdpi.png" alt="Vision">
+              <img class="mx-auto d-block" width="40%;" src="./images/ServiceAsset 2hdpi.png" alt="Vision">
               <br/>
               <h5 class="card-title text-center text-bold-blue">Vision</h5>
               <p class="card-text text-justify subtext">We provide managed services for mobile network operators Value Added Service (VAS) systems to ensure best in
@@ -558,6 +558,13 @@
   <script>
     bodymovin.loadAnimation({
       container: document.getElementById('bodymovin'), // the dom element that will contain the animation
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: './images/Svg/data.json' // the path to the animation json
+    });
+    bodymovin.loadAnimation({
+      container: document.getElementById('bodymovinmobile'), // the dom element that will contain the animation
       renderer: 'svg',
       loop: true,
       autoplay: true,
