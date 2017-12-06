@@ -286,6 +286,9 @@ hr.style6 {
         color:#6a6464;
         font-size: 2rem;
     }
+    .navbar .navbar-brand img {
+        height: 50px;
+    }
 }
 @media (min-width: 768px) {
     .logo-push{
