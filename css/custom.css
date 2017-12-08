@@ -11,7 +11,7 @@
     font-family: frutigerlight_cn;
     vertical-align:baseline
 }  */
-body header footer {
+body {
     font-family: 'frutigerlight_cn' !important;
 }
 .xmpler-navbar{
@@ -166,14 +166,14 @@ hr.style6 {
         -ms-filter: "FlipV";
     }
 
-    .btn-outline-primary:hover{
-        color: #fff;
-        background-color: #01A9A0;
-        border-color: #01A9A0;
-    }
-    .btn-outline-primary {
+    .btn-primary:hover{
         color: #01A9A0;
         background-color: transparent;
+        border-color: #01A9A0;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #01A9A0;
         background-image: none;
         border-color: #01A9A0;
     }
