@@ -26,7 +26,7 @@
 </head>
 
 <body>
-  <header class="navbar sticky-top navbar-expand-lg navbar-light xmpler-navbar" style="background-color: #fff;">
+      <header class="navbar sticky-top navbar-expand-lg navbar-light xmpler-navbar" style="background-color: #fff;">
     
           <a class="navbar-brand" href="./index.html">
             <img src="./images/logo.png" class="d-inline-block align-top" alt="">
@@ -55,13 +55,13 @@
                 <a data-scroll href="#about" class="nav-link">About</a>
               </li> -->
               <li class="nav-item">
-                <a data-scroll href="#services" class="nav-link">Services</a>
+                <a data-scroll href="index.html#services" class="nav-link">Services</a>
               </li>
               <li class="nav-item">
-                <a data-scroll href="#partners" class="nav-link">Partners</a>
+                <a data-scroll href="index.html#partners" class="nav-link">Partners</a>
               </li>
               <li class="nav-item">
-                <a data-scroll href="#products" class="nav-link">Products</a>
+                <a data-scroll href="index.html#products" class="nav-link">Products</a>
                 <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Products
                     </a>
@@ -75,10 +75,10 @@
                   </li> -->
               
               <li class="nav-item">
-                <a data-scroll href="#team" class="nav-link">Team</a>
+                <a data-scroll href="index.html#team" class="nav-link">Team</a>
               </li>
               <li class="nav-item">
-                <a data-scroll href="#contact" class="nav-link">Contact</a>
+                <a data-scroll href="index.html#contact" class="nav-link">Contact</a>
               </li>
               <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#">Disabled</a>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="col-md-3 col-sm-12 hidden-md-down align-self-end">
                   <h3>
-                      <a href="./product-1.html"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                      <a href="./product-3.html"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                   </h3>
                 </div>
               </div>
@@ -136,29 +136,45 @@
               <br>
               <div class="card">
                 <div class="card-header">
-
+                    <div>
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                          <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                          <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+                        </ul>
+                      
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                          <div role="tabpanel" class="tab-pane active" id="home">a</div>
+                          <div role="tabpanel" class="tab-pane" id="profile">b</div>
+                          <div role="tabpanel" class="tab-pane" id="messages">c</div>
+                          <div role="tabpanel" class="tab-pane" id="settings">d</div>
+                        </div>
+                      </div>
                   <ul class="nav nav-tabs card-header-tabs justify-content-center" role="tablist">
-                    <li class="nav-item" role="presentation" class="active">
-                      <a class="nav-link active" href="#home" aria-controls="home" role="tab" data-toggle="tab">INTRODUCTION</a>
+                    <li class="nav-item active" role="presentation">
+                      <a class="nav-link active" href="#p1" aria-controls="p1" role="tab" data-toggle="tab">INTRODUCTION</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link" href="#profile" aria-controls="profile" role="tab" data-toggle="tab">PCRF</a>
+                      <a class="nav-link" href="#p2" aria-controls="p2" role="tab" data-toggle="tab">PCRF</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link" href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Real Time Data Billing</a>
+                      <a class="nav-link" href="#p3" aria-controls="p3" role="tab" data-toggle="tab">Real Time Data Billing</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" href="#messages" aria-controls="messages" role="tab" data-toggle="tab">PCEF / TDF / DPI</a>
+                        <a class="nav-link" href="#p4" aria-controls="p4" role="tab" data-toggle="tab">PCEF / TDF / DPI</a>
                       </li>
                       <li class="nav-item" role="presentation">
-                          <a class="nav-link" href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Anti Bill Shock</a>
+                          <a class="nav-link" href="#p5" aria-controls="p5" role="tab" data-toggle="tab">Anti Bill Shock</a>
                         </li>
 
                   </ul>
                 </div>
                 <!-- Tab panes -->
                 <div class="tab-content">
-                  <div role="tabpanel" class="tab-pane active" id="home">
+                  <div role="tabpanel" class="tab-pane active" id="p1">
                     <div class="container">
                       <div class="row" style="padding:20px;">
                         <p class="card-text text-justify subtext">Continuous evolutions in access technologies, User device diversifications which are bandwidth hungry, connectivity from any device anywhere, M2M like Health care, Telematics etc., bandwidth hogging contents, OTT applications, Multi-Industry convergence and worldwide adoption of Internet has fuelled the explosive Internet Traffic growth. Mobility, broadband, devices and always on apps have redefined the way people connect and communicate.
@@ -175,7 +191,7 @@
                       
                     </div>
                   </div>
-                  <div role="tabpanel" class="tab-pane" id="profile">
+                  <div role="tabpanel" class="tab-pane" id="p2">
                     <div class="row" style="padding:20px;">
                       <p class="card-text text-justify subtext">UPCC platform offers a fully functional 3GPP compliant Policy Control and Charging Function (PCRF) which enables intelligent policy control decisions and flow based charging control functionalities. PCRF provides network control regarding the service data flow detection, gating, QoS and flow based charging. The PCRF interfaces with packet gateway and applies policy & charging enforcement decisions.
                       </p>
@@ -202,7 +218,7 @@
                           </div>
                     </div>
                   </div>
-                  <div role="tabpanel" class="tab-pane" id="messages">
+                  <div role="tabpanel" class="tab-pane" id="p3">
                       <div class="row" style="padding:20px;">
                           <p class="card-text text-justify subtext">UPCC platform offers a Real-time rating and charging centric solution with an integrated 3GPP compliant Subscriber Profile Repository (SPR) & Online Charging System (OCS) which performs online rating, correlation and charging of subscribers accounts / balances for Data access.
                           </p>
@@ -236,7 +252,7 @@
                           </p>
                         </div>
                   </div>
-                  <div role="tabpanel" class="tab-pane" id="messages">
+                  <div role="tabpanel" class="tab-pane" id="p4">
                       <div class="row" style="padding:20px;">
                           <p class="card-text text-justify subtext">UPCC platform offers a truly centralised converged Policy and Charging Enforcement Function (PCEF) that delivers the functionalities of Deep packet Inspection (DPI) / Traffic Detection Function (TDF), traffic shaping, packet filtering & QoS controls, & enforce policy decisions in real-time based on the context of network, service, subscriber, and usage context.
                           </p>
@@ -259,7 +275,7 @@
                           </p>
                         </div>
                   </div>
-                  <div role="tabpanel" class="tab-pane" id="messages">
+                  <div role="tabpanel" class="tab-pane" id="p5">
                       <div class="row" style="padding:20px;">
                           <p class="card-text text-justify subtext">Customers find it difficult to link their data usage with their data plan in terms of volume and charges accrued. For any customer, awareness of data usage and cost control is the key to enhanced customer experience. New EU and US regulations do mandate to notify a customer on breach of their usage limits.
                           </p>
@@ -394,7 +410,8 @@
   <script>
     $('#myTab a').on('click', function (e) {
       e.preventDefault()
-      $(this).tab('show')
+      $(this).tab('show');
+      $(this).parent().removeClass('active');
     })
     var scroll = new SmoothScroll('a[href*="#"]', {
       // Selectors
@@ -403,7 +420,7 @@
 
       // Speed & Easing
       speed: 500, // Integer. How fast to complete the scroll in milliseconds
-      offset: 20, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+      offset: 80, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
       easing: 'easeInOutCubic', // Easing pattern to use
       customEasing: function (time) {}, // Function. Custom easing pattern
 

@@ -113,7 +113,7 @@ hr.style6 {
     font-size: 16px;
 }
 .navbar .navbar-brand img {
-    height: 120px;
+    height: 100px;
 }
 
 .cardB {
@@ -146,7 +146,10 @@ hr.style6 {
         color:#6a6464;
         font-size: 1.1rem;
     }
-
+    .subtext2{
+        color:#6a6464;
+        font-size: 1.0rem;
+    }
     .products-container{
         width:133px;
         height:46px;
