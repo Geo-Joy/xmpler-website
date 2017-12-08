@@ -183,7 +183,10 @@ hr.style6 {
         background-image: none;
         border-color: #01A9A0;
     }
-
+    .nav-pills .nav-link.active{
+        color: #fff;
+        background-color: #01A9A0;
+    }
     .form-control {
         outline: 0;
         border-width: 0 0 2px 0;

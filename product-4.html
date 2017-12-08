@@ -20,8 +20,6 @@
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"> -->
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <script src="./js/custom.js"></script>
-  <script src="./js/bodymovin.min.js" type="text/javascript"></script>
-  <script src="./js/smooth-scroll.min.js" type="text/javascript"></script>
 
 </head>
 
@@ -133,10 +131,11 @@
             <div class="card-body">
               <img class="mx-auto d-block img-fluid" src="./images/product-04.png" alt="flow-diagram">
               <br>
+              
               <div class="card">
                 <div class="card-header">
 
-                  <ul class="nav nav-tabs card-header-tabs justify-content-center" role="tablist">
+                  <ul class="nav nav-pills nav-tabs card-header-tabs justify-content-center" role="tablist">
                     <li class="nav-item" role="presentation" class="active">
                       <a class="nav-link active" href="#p1" aria-controls="home" role="tab" data-toggle="tab">INTRODUCTION</a>
                     </li>
@@ -150,7 +149,7 @@
                 </div>
                 <!-- Tab panes -->
                 <div class="tab-content">
-                  <div role="tabpanel" class="tab-pane active" id="p1">
+                  <div role="tabpanel" class="tab-pane fade show active" id="p1">
                     <div class="container">
                       <div class="row" style="padding:20px;">
                         <p class="card-text text-justify subtext">Prepaid Subscribers penetration in most of the networks is on much higher side. Number of Postpaid subscribers in a network are normally handful. Also in many networks, operators are using converged rating in the IN for both prepaid and postpaid subscribers.
@@ -165,7 +164,7 @@
                     </div>
                   </div>
 
-                  <div role="tabpanel" class="tab-pane" id="p2">
+                  <div role="tabpanel" class="tab-pane fade" id="p2">
                       <div class="row" style="padding:20px;">
                           <p class="card-text text-justify subtext">This allows operators to incorporate Postpaid Subscriber base and various solutions and privileges to be passed onto the Subscriber. 
                           </p>
@@ -185,7 +184,7 @@
                           </ul>
                         </div>
                   </div>
-                  <div role="tabpanel" class="tab-pane" id="p3">
+                  <div role="tabpanel" class="tab-pane fade" id="p3">
                       <div class="row" style="padding:20px;">
                           <p class="card-text text-justify subtext">Option to allow Prepaid Subscriber to be able to generate a Bill of their monthly usage
                           </p>
@@ -325,6 +324,9 @@
           navMain.collapse('hide');
         });
       } // Callback to run after scroll
+    });
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
     });
   </script>
 </body>
